@@ -9,5 +9,6 @@ public class SpringDesktop extends JFrame {
 		
 		this.setSize(800, 600);
 		this.setVisible(true);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }
